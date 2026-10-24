@@ -1,0 +1,27 @@
+﻿# Entornos virtuales
+.venv/
+venv/
+**/.venv/
+**/venv/
+
+# Secretos
+.env
+**/.env
+!.env.example
+**/.env.example
+
+# Bases de datos locales
+instance/
+**/instance/
+*.db
+*.sqlite
+*.sqlite3
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Editor y sistema
+.vscode/
+.DS_Store
+Thumbs.db
